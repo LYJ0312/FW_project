@@ -12,6 +12,11 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Dongle:wght@400;700&family=Nanum+Pen+Script&display=swap" rel="stylesheet">
 
+    <!--기온에 맞는 랜덤 옷-->
+    <link rel="stylesheet" href="./css/cloth_style.css">
+    <link rel="stylesheet" href="./css/toggle.css">
+    <script type="text/javascript" src="./cjs/cloths_M.js"></script>
+    <script type="text/javascript" src="./cjs/cloths_W.js"></script>
 </head>
 <body>
     <h2 class="city" style="text-align: center; font-size: 50px; font-family: 'Dongle' !important; color: rgb(58, 101, 182);">패션을 통하여 날씨를 알아보자</h2>
@@ -70,5 +75,56 @@
         </div>
     </div>
 </div>
+
+    <!--랜덤 옷-->
+    <div class="hor_d">
+        <div class="hor">
+            <div class="Character">
+                <img src="Img/nullPerson.png" id="chara-img0" style="width:100%;height:100%;">
+            </div>
+            <div class="clot-div">
+                <img src="Img/Clean.png" id="chara-clo0" style="width:100%;height:100%;">
+            </div>
+            <div class="pant-div">
+                <img src="Img/Clean.png" id="chara-pan0" style="width:100%;height:100%;">
+            </div>
+            <div class="mask-div">
+                <img src="Img/Clean.png" class="chara-mask" style="width:100%;height:100%;">
+            </div>
+        </div>
+        <div class="hor">
+            <div class="Character">
+                <img src="Img/nullPerson.png" id="chara-img1" style="width:100%;height:100%;">
+            </div>
+            <div class="clot-div">
+                <img src="Img/Clean.png" id="chara-clo1" style="width:100%;height:100%;">
+            </div>
+            <div class="pant-div">
+                <img src="Img/Clean.png" id="chara-pan1" style="width:100%;height:100%;">
+            </div>
+            <div class="mask-div">
+                <img src="Img/Clean.png" class="chara-mask" style="width:100%;height:100%;">
+            </div>
+        </div>
+        <div class="hor">
+            <div class="Character">
+                <img src="Img/nullPerson.png" id="chara-img2" style="width:100%;height:100%;">
+            </div>
+            <div class="clot-div">
+                <img src="Img/Clean.png" id="chara-clo2" style="width:100%;height:100%;">
+            </div>
+            <div class="pant-div">
+                <img src="Img/Clean.png" id="chara-pan2" style="width:100%;height:100%;">
+            </div>
+            <div class="mask-div">
+                <img src="Img/Clean.png" class="chara-mask" style="width:100%;height:100%;">
+            </div>
+        </div>
+        <input class="hor" type="checkbox" id="toggle" hidden>
+        <label for="toggle" class="toggleSwitch">
+            <span class="toggleButton"></span>
+        </label>
+    </div>
+    <script type="text/javascript" src="./cjs/clothesChange.js"></script>
 </body>
 </html>

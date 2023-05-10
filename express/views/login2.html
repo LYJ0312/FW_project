@@ -1,0 +1,60 @@
+<!-- app.js 실행이므로 같은 파일에 존재해야 함 (express파일 안에 넣어놓기) -->
+<!DOCTYPE html>
+<html lang = 'en'>
+    <head>
+        <meta charset="UTF-8">
+        <title>Weather_Fashion- 로그인 / 회원가입 </title>
+        <script></script>
+        <link rel="stylesheet" href="express/css/rostyle.css" rel="'stylesheet" >
+        <link rel="icon" href="" type="image/svg">
+    </head>
+    <body>
+        <h1>Weather_Fashion</h1>     
+        <div class="wrap">
+        <div class="form-wrap">
+        <div class="button-wrap">
+        <div id="btn"></div>
+        <button type="button" class="togglebtn" onclick="login()">로그인</button>
+        <button type="button" class="togglebtn" onclick="register()">회원가입</button>
+        </div>
+                    <!-- <div class="social-icons">
+                        <img src="img/fb.png" alt="facebook">
+                        <img src="img/tw.png" alt="twitter">
+                        <img src="img/gl.png" alt="google">
+                    </div> -->
+        <form id="login" action="" class="input-group">
+        <input type="id" class="input-field" placeholder="아이디" required>2
+        <input type="password" class="input-field" placeholder="비밀번호" required>
+        <input type="checkbox" class="checkbox"><span>비밀번호 기억하기</span>
+        <button class="submit">로그인</button>
+            </form>
+                <form id="register" action="" class="input-group">
+                <input type="text" class="input-field" placeholder="이름" required>
+                <input type="email" class="input-field" placeholder="사용자 Email" required>
+                <input type="id" class="input-field" placeholder="아이디" required>
+                <input type="password" class="input-field" placeholder="비밀번호" required>
+                <input type="text" class="input-field" placeholder="닉네임" required>
+                <input type="checkbox" class="checkbox"><span>이용약관 동의</span>
+                <button class="submit">등록하기</button>
+            </form>
+        </div>
+        </div>
+        <script>
+            var x = document.getElementById("login");
+            var y = document.getElementById("register");
+            var z = document.getElementById("btn");
+                                
+            function login(){
+                x.style.left = "50px";
+                y.style.left = "450px";
+                z.style.left = "0";
+            }
+    
+            function register(){
+                x.style.left = "-400px";
+                y.style.left = "50px";
+                z.style.left = "110px";
+            }
+        </script>
+    </body>
+</html> 

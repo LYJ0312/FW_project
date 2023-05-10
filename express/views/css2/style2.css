@@ -1,0 +1,72 @@
+
+*{
+    font-family: 'Dongle' !important;
+    font-size: 30px;
+}
+
+img {
+    position : absolute;
+    width: 17px;
+    top: 10px;
+    right: 12px;
+    margin: 0;
+}
+
+#bparent{
+    width: 90%;
+    margin: 10px auto;
+    display: flex;
+}
+
+#seoul {
+    border: 1px solid rgb(73, 62, 122);
+    flex:1;
+    width:10%;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+
+#Gyeonggi{
+    border: 1px solid rgb(73, 62, 122);
+    flex:1;
+    width:10%;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+
+
+
+#incheon{
+    border: 1px solid rgb(50, 57, 160);
+    flex:1;
+    width:10%;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+
+#busan{
+    border: 1px solid rgb(45, 53, 160);
+    flex:1;
+    width:10%;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+
+.cam{
+    float:left;
+    width: 8%;
+    height: 100%;
+    border: 1px solid rgb(23, 23, 24);
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+input {
+    width: 60%;
+    border: 1px solid #272323;
+    float: left;
+    border-radius: 8px;
+    padding: 0px;
+    font-size: 30px;
+    height: 100%;
+}
